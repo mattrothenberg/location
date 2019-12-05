@@ -7,15 +7,10 @@ use Statamic\Providers\AddonServiceProvider;
 class ServiceProvider extends AddonServiceProvider
 {
     protected $scripts = [
-        __DIR__.'/public/vendor/mattrothenberg/location.js'
+        __DIR__.'/../dist/js/location.js',
     ];
 
     protected $fieldtypes = [
-        \Mattrothenberg\Location\Location::class
+        \Mattrothenberg\Location\Location::class,
     ];
-
-    public function boot()
-    {
-        parent::boot();
-    }
 }

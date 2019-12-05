@@ -1,3 +1,3 @@
 const mix = require('laravel-mix');
 
-mix.js('./src/resources/js/location.js', './src/public/vendor/mattrothenberg');
+mix.js('resources/js/location.js', 'dist/js');
