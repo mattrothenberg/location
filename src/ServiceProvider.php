@@ -13,4 +13,9 @@ class ServiceProvider extends AddonServiceProvider
     protected $fieldtypes = [
         \Mattrothenberg\Location\Location::class
     ];
+
+    public function boot()
+    {
+        parent::boot();
+    }
 }
