@@ -1,0 +1,20 @@
+{
+    "name": "mattrothenberg/location",
+    "type": "statamic-addon",
+    "autoload": {
+        "psr-4": {
+            "Mattrothenberg\\Location\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Location",
+            "description": "Location addon"
+        },
+        "laravel": {
+            "providers": [
+                "Mattrothenberg\\Location\\ServiceProvider"
+            ]
+        }
+    }
+}
