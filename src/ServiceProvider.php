@@ -7,7 +7,7 @@ use Statamic\Providers\AddonServiceProvider;
 class ServiceProvider extends AddonServiceProvider
 {
     protected $scripts = [
-        __DIR__.'/public/js/location.js'
+        __DIR__.'/public/vendor/mattrothenberg/location.js'
     ];
 
     protected $fieldtypes = [
